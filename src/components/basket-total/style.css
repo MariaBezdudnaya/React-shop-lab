@@ -1,0 +1,14 @@
+/* Итого в корзине */
+.BasketTotal {
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px;
+  gap: 24px;
+}
+
+.BasketTotal-cell {
+  min-width: 105px;
+  text-align: right;
+  font-weight: bold;
+  white-space: nowrap;
+}

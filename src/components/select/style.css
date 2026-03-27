@@ -1,0 +1,35 @@
+.Select {
+  border: 1px solid var(--filter-border);
+  cursor: pointer;
+  padding: 8px 12px;
+  background-color: var(--background);
+  border-radius: 4px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  height: 40px;
+}
+
+.Select:focus-visible {
+  outline: none;
+}
+
+.Select option:hover {
+  background: var(--primary);
+  color: var(--second-text);
+}
+.Select option:checked {
+  background: none;
+  color: var(--primary);
+}
+
+.Select_size_small {
+  min-width: 130px;
+}
+
+.Select_size_medium {
+  min-width: 233px;
+}
+
+.Select_text {
+  border: none;
+}

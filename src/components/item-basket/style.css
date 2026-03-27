@@ -1,0 +1,26 @@
+/* Пункт списка */
+.ItemBasket {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  transition: background-color 1s;
+  padding: 16px;
+}
+
+.ItemBasket-title a {
+  font-weight: bold;
+}
+
+.ItemBasket-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex: auto;
+  gap: 24px;
+}
+
+.ItemBasket-cell {
+  min-width: 105px;
+  text-align: right;
+  white-space: nowrap;
+}
