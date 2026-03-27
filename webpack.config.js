@@ -59,7 +59,8 @@ if (process.env.NODE_ENV === 'development') {
     proxy: [
       {
         context: '/api/**',
-        target: 'http://query.rest',
+        // target: 'http://query.rest',
+        target: 'https://api-proxy-ajt8lhfmu-marias-projects-9a4016cf.vercel.app',
         secure: false,
         changeOrigin: true,
       },
